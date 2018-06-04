@@ -7,5 +7,8 @@
 <body>
 
 <h3>Home Page!</h3>
+{% for gallery in gallerys.all %}
+<h2>{{ gallery.description }}</h2>
+{% endfor %}
 </body>
 </html>
