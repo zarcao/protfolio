@@ -5,10 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-<h3>Dteail Page!</h3>
-{% for gallery in gallerys %}
-<h3>{{ gallery.description }}</h3>
-<img src="{{ gallery.image.url }}">
-{% endfor %}
+
+<div style="text-align: center">
+    <h3>Dteail Page!</h3>
+    <h3>{{ gallerys.description }}</h3>
+    <img src="{{ gallerys.image.url }}" width="60%">
+</div>
 </body>
 </html>
